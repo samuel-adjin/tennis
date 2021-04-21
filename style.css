@@ -1,0 +1,147 @@
+body{
+    background-color: #F4F2F3;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 120vh;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: #64766A;
+}
+
+.container{
+    margin: 0px auto ;
+    width: 62%;
+    
+    /* margin-left: 30%;
+    */
+    height: 51%;
+    /* border: 2px solid green; */
+}
+
+.container .wrapper{
+    width: 50%;
+}
+
+.resp{
+    margin: 20px auto;
+    /* border: 2px solid red; */
+    height: 10vh;
+    width: 20vw;
+    padding: 0px 10px 10px 80px;
+    /* background-color: #C0A9BD; */
+   
+}
+
+/* input[type = number]{
+    width: 30%;
+    height: 60%;
+    padding-left: 85px;
+    font-size: 1.2rem;
+   
+} */
+
+h3{
+    margin: 0px;
+}
+#btn{
+    border-radius: 15px;
+    border: none;
+    height: 60%;
+    width: 45% ;
+    margin-left: 50px;
+    text-decoration: none;
+    outline: none;
+    /* background-color: #1D3124;
+    color: white; */
+}
+.show{
+    display: none;
+   margin-left: 25px;
+   
+}
+
+.scoreProgress{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 150px;
+}
+
+.plyr1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 15vh;
+    text-align: center;
+    padding-left: 15px;
+
+}
+
+
+.progress{
+    position: relative;
+    width:210px;
+    height: 30px;
+    background-color: #9cb0b4;
+    border-radius: 5px;
+    overflow: hidden;
+    /* transform: rotate(180deg); */
+}
+
+.progress2{
+    position: relative;
+    width:210px;
+    height: 30px;
+    background-color: #9cb0b4;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.progress__fillp{
+    width:0%;
+    height: 100%;
+    background-color: #192F01;
+    
+    transition: all 0.2s;
+}
+
+
+.progress__fill{
+    width:0%;
+    height: 100%;
+    background-color: #009579;
+    transition: all 0.2s;
+}
+
+/* .progress__fillp{
+    width:0%;
+    height: 100%;
+    background-color: #FFBB98;
+    transition: all 0.2s;
+} */
+
+.progress__textp{
+    position:absolute;
+    bottom:30%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand', sans-serif;
+    color: #ffff;
+    transform: rotate(180deg);
+}
+
+.progress__text{
+    position:absolute;
+    top:50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand', sans-serif;
+    color: #ffff;
+}
+
